@@ -1,0 +1,170 @@
+@charset "utf-8";
+* {
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-size: 0.14rem;
+    font-style: normal;
+    font-weight: normal;
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+html {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    user-select: none;
+    font-size: 625%;
+}
+
+img,
+div,
+body,
+html,
+ul,
+li,
+a {
+    -webkit-touch-callout: none;
+}
+
+input,
+button {
+    outline: 0;
+}
+
+
+/*  input,textarea,button{
+ -webkit-appearance: none;
+ -moz-appearance: none ;
+ appearance: none ;
+} */
+
+button {
+    cursor: pointer;
+}
+
+input::-webkit-input-placeholder,
+textarea::-webkit-input-placeholder {
+    color: #ccc;
+}
+
+input::-webkit-input-placeholder,
+textarea::-webkit-input-placeholder {
+    color: #ccc;
+}
+
+.wrap,
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.wrap {
+    flex-direction: column;
+    display: flex;
+}
+
+header {
+    width: 100%;
+    height: 0.4rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 0.1rem;
+    border-bottom: 1px solid #eee;
+}
+
+header span b {
+    border: 1px solid #ccc;
+    padding: 0.03rem 0.05rem;
+    border-radius: 0.05rem;
+}
+
+section {
+    flex: 1;
+    overflow-y: scroll;
+}
+
+.shang {
+    width: 100%;
+}
+
+.shang .img1 {
+    width: 100%;
+}
+
+.shang p {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 0.1rem;
+}
+
+.shang p {
+    border-bottom: 1px solid #eee;
+}
+
+.shang p span {
+    line-height: 0.4rem;
+}
+
+.pai {
+    width: 100%;
+    border-bottom: 1px solid #ccc;
+}
+
+.pai span {
+    display: block;
+    line-height: 0.3rem;
+    padding: 0 0.1rem;
+}
+
+.pai span:nth-child(2) {
+    color: #777;
+}
+
+.pai span:nth-child(3) {
+    color: red;
+}
+
+footer {
+    width: 100%;
+    height: 0.4rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 0rem;
+    border-top: 1px solid #ccc;
+}
+
+footer span i {
+    padding: 0 0.05rem;
+    color: #ccc;
+}
+
+footer span:nth-child(2) {
+    color: red;
+}
+
+footer span button {
+    padding: 0.1rem 0.2rem;
+    border: none;
+    color: #fff;
+    background: #ccc;
+}
+
+.bei {
+    color: #fff;
+    background: #666;
+}

@@ -1,0 +1,174 @@
+@charset "utf-8";
+* {
+  margin: 0px;
+  padding: 0px;
+  text-decoration: none;
+  box-sizing: border-box;
+  font-size: 0.14rem;
+  font-style: normal;
+  font-weight: normal;
+}
+ul,
+li {
+  list-style: none;
+}
+html {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  user-select: none;
+  font-size: 625%;
+}
+img,
+div,
+body,
+html,
+ul,
+li,
+a {
+  -webkit-touch-callout: none;
+}
+input,
+button {
+  outline: 0;
+}
+/*  input,textarea,button{
+ -webkit-appearance: none;
+ -moz-appearance: none ;
+ appearance: none ;
+} */
+button {
+  cursor: pointer;
+}
+input::-webkit-input-placeholder,
+textarea::-webkit-input-placeholder {
+  color: #ccc;
+}
+input::-webkit-input-placeholder,
+textarea::-webkit-input-placeholder {
+  color: #ccc;
+}
+.wrap,
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.wrap {
+  flex-direction: column;
+  display: flex;
+}
+header {
+  width: 100%;
+  height: 0.4rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 0.1rem;
+  border-bottom: 1px solid #eee;
+}
+.top {
+  width: 100%;
+  height: 0.3rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 0.1rem;
+  line-height: 0.3rem;
+}
+.top .bj {
+  color: red;
+  border-bottom: 2px solid red;
+}
+section {
+  flex: 1;
+  overflow-y: scroll;
+}
+.boxs {
+  width: 100%;
+}
+.boxs dl {
+  width: 50%;
+  padding: 0.05rem 0.05rem;
+  float: left;
+}
+.boxs dl dt img {
+  width: 100%;
+}
+.boxs dl dd {
+  width: 100%;
+  margin-top: -0.05rem;
+}
+.boxs dl dd span {
+  display: block;
+  line-height: 0.2rem;
+}
+.boxs dl dd span:nth-child(1) {
+  width: 100%;
+  height: 0.3rem;
+  background: #F1ECE2;
+  font-size: 0.12rem;
+  text-align: center;
+  line-height: 0.3rem;
+  color: #BAAA8A;
+}
+.boxs dl dd span:nht-child(2) {
+  font-size: 0.13rem;
+}
+.boxs dl dd span:nth-child(3) {
+  color: #CE7174;
+  font-size: 0.13rem;
+}
+.beizhen dl {
+  width: 50%;
+  padding: 0.05rem 0.05rem;
+  float: left;
+}
+.beizhen dl dt img {
+  width: 100%;
+}
+.beizhen dl dd {
+  width: 100%;
+}
+.beizhen dl dd span {
+  display: block;
+  line-height: 0.2rem;
+  font-size: 0.13rem;
+}
+.beizhen dl dd span:nth-child(3) {
+  color: #CE7174;
+  font-size: 0.13rem;
+}
+.jiaju dl {
+  width: 50%;
+  padding: 0.05rem 0.05rem;
+  float: left;
+}
+.jiaju dl dt img {
+  width: 100%;
+}
+.jiaju dl dd {
+  width: 100%;
+}
+.jiaju dl dd span {
+  display: block;
+  line-height: 0.2rem;
+  font-size: 0.13rem;
+}
+.jiaju dl dd span:nth-child(3) {
+  color: #CE7174;
+  font-size: 0.13rem;
+}
+footer {
+  width: 100%;
+  height: 0.4rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 0.2rem;
+  border-top: 1px solid #ccc;
+}

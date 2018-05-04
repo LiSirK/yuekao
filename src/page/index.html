@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="../static/css/lyk.css">
+    <link rel="stylesheet" href="../static/fonts/iconfont.css">
+    <link rel="stylesheet" href="../static/css/swiper-3.4.2.min.css">
+</head>
+
+<body>
+    <div class="wrap">
+        <header>
+            <span><i class="iconfont icon-xiangzuo"></i></span>
+            <span>居家</span>
+            <span><i class="iconfont icon-fangdajing"></i></span>
+        </header>
+        <div class="top">
+            <span class="bj">床品</span>
+            <span>被枕</span>
+            <span>家具</span>
+            <span>收纳</span>
+            <span>布艺</span>
+        </div>
+        <section>
+            <div class="boxs">
+                <script id="boxs-tpl" type="text/x-handlebars-template">
+                    {{#each data}}
+                    <dl>
+                        <dt>
+                            <a href="../page/index1.html"><img src="{{imgs}}"></a>
+                        </dt>
+                        <dd>
+                            <span>{{wenzi}}</span>
+                            <span>{{xiaozi}}</span>
+                            <span>{{qian}}</span>
+                        </dd>
+                    </dl>
+                    {{/each}}
+                </script>
+            </div>
+            <div class="beizhen">
+                <dl>
+                    <dt>
+                                        <img src="../11.jpg">
+                                    </dt>
+                    <dd>
+                        <span>柔情蓝鲸，清凉亲夫保湿</span>
+                        <span>￥399</span>
+                    </dd>
+                </dl>
+                <dl>
+                    <dt>
+                                            <img src="../12.jpg">
+                                        </dt>
+                    <dd>
+                        <span>柔情蓝鲸，清凉亲夫保湿</span>
+                        <span>￥399</span>
+                    </dd>
+                </dl>
+                <dl>
+                    <dt>
+                                                <img src="../13.jpg">
+                                            </dt>
+                    <dd>
+                        <span>柔情蓝鲸，清凉亲夫保湿</span>
+                        <span>￥399</span>
+                    </dd>
+                </dl>
+                <dl>
+                    <dt>
+                                                    <img src="../14.jpg">
+                                                </dt>
+                    <dd>
+                        <span>柔情蓝鲸，清凉亲夫保湿</span>
+                        <span>￥399</span>
+                    </dd>
+                </dl>
+            </div>
+            <div class="jiaju">
+                <dl>
+                    <dt>
+                                            <img src="../30.jpg">
+                                        </dt>
+                    <dd>
+                        <span>柔情蓝鲸，清凉亲夫保湿</span>
+                        <span>￥399</span>
+                    </dd>
+                </dl>
+                <dl>
+                    <dt>
+                                                <img src="../30.jpg">
+                                            </dt>
+                    <dd>
+                        <span>柔情蓝鲸，清凉亲夫保湿</span>
+                        <span>￥399</span>
+                    </dd>
+                </dl>
+                <dl>
+                    <dt>
+                                                    <img src="../30.jpg">
+                                                </dt>
+                    <dd>
+                        <span>柔情蓝鲸，清凉亲夫保湿</span>
+                        <span>￥399</span>
+                    </dd>
+                </dl>
+                <dl>
+                    <dt>
+                                                        <img src="../30.jpg">
+                                                    </dt>
+                    <dd>
+                        <span>柔情蓝鲸，清凉亲夫保湿</span>
+                        <span>￥399</span>
+                    </dd>
+                </dl>
+            </div>
+        </section>
+
+    </div>
+    <script src="../static/js/lib/require.js"></script>
+    <script>
+        require(["../static/js/page/config"], function() {
+            require(["../page/main", "jq"])
+        })
+    </script>
+</body>
+
+</html>
